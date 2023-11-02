@@ -1,0 +1,176 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+ 
+* {
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+ 
+@font-face {
+  /* primary font */
+  font-family: 'SF Pro Display Bold';
+  src: url('https://db.onlinewebfonts.com/t/3cff9206b4c8d578245ef1aaeeaf9e84.eot');
+  src: url('https://db.onlinewebfonts.com/t/3cff9206b4c8d578245ef1aaeeaf9e84.eot?#iefix')
+      format('embedded-opentype'),
+    url('https://db.onlinewebfonts.com/t/3cff9206b4c8d578245ef1aaeeaf9e84.woff2')
+      format('woff2'),
+    url('https://db.onlinewebfonts.com/t/3cff9206b4c8d578245ef1aaeeaf9e84.woff')
+      format('woff'),
+    url('https://db.onlinewebfonts.com/t/3cff9206b4c8d578245ef1aaeeaf9e84.ttf')
+      format('truetype'),
+    url('https://db.onlinewebfonts.com/t/3cff9206b4c8d578245ef1aaeeaf9e84.svg#SF Pro Display Bold')
+      format('svg');
+}
+ 
+@font-face {
+  /* secondary font */
+  font-family: 'SF Pro Display Regular';
+  src: url('https://db.onlinewebfonts.com/t/0b51833ff62e4af8acb5fd3e2bf59e97.eot');
+  src: url('https://db.onlinewebfonts.com/t/0b51833ff62e4af8acb5fd3e2bf59e97.eot?#iefix')
+      format('embedded-opentype'),
+    url('https://db.onlinewebfonts.com/t/0b51833ff62e4af8acb5fd3e2bf59e97.woff2')
+      format('woff2'),
+    url('https://db.onlinewebfonts.com/t/0b51833ff62e4af8acb5fd3e2bf59e97.woff')
+      format('woff'),
+    url('https://db.onlinewebfonts.com/t/0b51833ff62e4af8acb5fd3e2bf59e97.ttf')
+      format('truetype'),
+    url('https://db.onlinewebfonts.com/t/0b51833ff62e4af8acb5fd3e2bf59e97.svg#SF Pro Display Regular')
+      format('svg');
+}
+#menu {
+  position: relative;
+  float: right;
+  margin-bottom: 100px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  float: left;
+}
+
+li a {
+
+  text-align: center;
+  padding: 14px 16px;
+}
+ 
+.body {
+  max-width: 1300px;
+  margin: 0 auto;
+  font-size: 16px;
+}
+
+.image1 {
+  position: relative;
+  margin-right: 80px;
+  float: left;
+  top: -156px;
+}
+
+.text1 {
+  position: relative;
+  float: left;
+  bottom: 1110px;
+  left: 50px;
+  font-size: 130px;
+  font-weight: bold;
+  color: white;
+}
+
+.image2 {
+  position: relative;
+  margin-top: 100px;
+  margin-left: 100px;
+}
+
+.text2 {
+  margin-top: 0px;
+  margin-left: 735px;
+  margin-right: 65px;
+}
+
+.Pb  {
+  float: right;
+  font-weight: normal;
+  margin-top: 12px;
+  margin-left: 23px;
+  margin-right: 20px;
+}
+
+.btn1 {
+  position: relative;
+  float: left;
+  bottom: 895px;
+  left: 560px;
+  background-color: rgb(238, 234, 234);
+  border-radius: 10px;
+}
+.btn2 {
+  position: relative;
+  float: left;
+  bottom: 825px;
+  left: 395px;
+  background-color: rgb(238, 234, 234);
+  border-radius: 10px;
+}
+
+ 
+@media only screen and (min-width: 1098px) {
+}
+@media only screen and (max-width: 1090px) {
+
+  #menu-button{
+    float: right;
+    position: relative;
+    margin-top: 15px;
+    margin-bottom: 200px;
+  }
+
+  .logo {
+    margin-top: 6px;
+    margin-left: 3px;
+  }
+
+  .image2 {
+    right: 100px;
+    bottom: 170px;
+  }
+
+  .text1 {
+    position: relative;
+    bottom: 660px;
+    font-size: 75px;
+    left: 15px;
+    color: white;
+    margin-bottom: -50px;
+  }
+
+  .text2 {
+    text-align: center;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-top: -150px;
+    font-family: sans-serif;
+    font-weight: 900px;
+    font-size: medium;
+  }
+
+  .btn1 {
+    position: relative;
+    bottom: -20px;
+    left: 114px;
+  }
+  .btn2 {
+    position: relative;
+    bottom: -90px;
+    left: -50px;
+    margin-bottom: 150px;
+  }
+ 
+}
